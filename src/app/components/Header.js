@@ -2,7 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "@/app/styles/Header.module.css";
+
 import arrow_down from "@/app/icons/arrow-down-s-line.svg";
+
+import terminal from "@/app/icons/terminal.svg";
+import pytorch_logo from "@/app/icons/pytorch-logo.svg";
+import pytorch_advanced from "@/app/icons/pytorch-advance.svg";
+
+import book_line from "@/app/icons/book-line.svg";
+import code_block from "@/app/icons/code-box-line.svg";
+import walk_line from "@/app/icons/walk-line.svg";
+
+import unity_logo from "@/app/icons/unity-logo.svg"
+import football_line from "@/app/icons/football-line.svg"
 
 export default function Header() {
   return (
@@ -33,26 +45,221 @@ export default function Header() {
           </Link>
           <div className={styles.divider}></div>
           <div className={styles.links}>
-            <span>Learn</span>
-            <Image src={arrow_down} width={25} height={25} alt="arrow_down" />
+            <div>
+              <span>Learn</span>
+              <Image
+                src={arrow_down}
+                width={25}
+                height={25}
+                alt="arrow_down"
+                className={styles.arrow_down}
+              />
+            </div>
+            <div className={styles.links_content}>
+              <Link href={"/learn/getting-started"}>
+                <div className={styles.sublink}>
+                  <Image src={terminal} width={50} height={50} alt="TERMINAL" />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Getting Started</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                      Kick start you AI journey by downloading and setup
+                      required tools.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href={"/learn/learn-pytorch"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={pytorch_logo}
+                    width={41.366}
+                    height={50}
+                    alt="PYTORCH_LOGO"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Learn PyTorch</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                      Gradually start learning PyTorch to boost your ML/Deep
+                      Learning Skills.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href={"/learn/pytorch-advanced"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={pytorch_advanced}
+                    width={50}
+                    height={50}
+                    alt="PYTORCH_ADVANCED"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">PyTorch Advanced</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                      Become a Professional in creating ML/Deep Learning Models
+                      and PyTorch Mobile.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
           <div className={styles.links}>
-            <span>Projects</span>
-            <Image src={arrow_down} width={25} height={25} alt="arrow_down" />
+            <div>
+              <span>Projects</span>
+              <Image
+                src={arrow_down}
+                width={25}
+                height={25}
+                alt="arrow_down"
+                className={styles.arrow_down}
+              />
+            </div>
+            <div className={styles.links_content}>
+              <Link href={"/projects/learning-projects"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={book_line}
+                    width={50}
+                    height={50}
+                    alt="BOOK_LINE"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Learning Projects</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                      Some beginner friendly project designed for students who
+                      are learning PyTorch.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href={"/projects/master-pytorch"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={code_block}
+                    width={50}
+                    height={50}
+                    alt="CODE_BLOCK"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Master PyTorch</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                      A set of projects which will help you boost your PyTorch
+                      Journey.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href={"/projects/simulation-projects"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={walk_line}
+                    width={50}
+                    height={50}
+                    alt="WALK_LINE"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Simulation Projects</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                      Projects involving ML Agents and reinforcement learning.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
           <div className={styles.links}>
-            <span>ML Agents</span>
-            <Image src={arrow_down} width={25} height={25} alt="arrow_down" />
+            <div>
+              <span>ML Agents</span>
+              <Image
+                src={arrow_down}
+                width={25}
+                height={25}
+                alt="arrow_down"
+                className={styles.arrow_down}
+              />
+            </div>
+            <div className={styles.links_content}>
+              <Link href={"/ml-agents/unity-ml-agents"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={unity_logo}
+                    width={41.50}
+                    height={50.545}
+                    alt="UNITY_LOGO"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Unity ML Agents</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                    Train and embed intelligent agents by leveraging state-of-the-art deep learning technology.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href={"/ml-agents/custom-environment"}>
+                <div className={styles.sublink}>
+                  <Image
+                    src={football_line}
+                    width={50}
+                    height={50}
+                    alt="CUSTOM_ENV"
+                  />
+                  <div style={{ marginTop: 10 }}>
+                    <b>
+                      <p className="m">Custom Environment</p>
+                    </b>
+                    <p className={`s ${styles.desc}`}>
+                    A complete tutorial for using pre-build simulation/game environments for ML Agents.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
           <div className={styles.links}>
-            <span>Data Collection</span>
+            <Link href={"/data-collection"}>
+              <span>Data Collection</span>
+            </Link>
           </div>
           <div className={styles.links}>
-            <span>Blogs</span>
+            <Link href={"/blogs"}>
+              <span>Blogs</span>
+            </Link>
           </div>
         </div>
       </nav>
-      <div className="container" style={{backgroundColor: "var(--secondary)", borderRadius: 11, height: 50, display: "flex", justifyContent: "center", alignItems: "center"}}><p className="m">This Project is currently under work.</p></div>
+      <div
+        className="container"
+        style={{
+          backgroundColor: "var(--secondary)",
+          borderRadius: 11,
+          height: 50,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <p className="m">This Project is currently under work.</p>
+      </div>
     </>
   );
 }
