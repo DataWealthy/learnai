@@ -1,0 +1,24 @@
+.divider {
+    display: none;
+}
+
+.links {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .divider {
+        width: 2px;
+        background-color: #000;
+        height: 40px;
+        display: unset;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
