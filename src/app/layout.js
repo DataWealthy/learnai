@@ -1,6 +1,8 @@
 import './globals.css'
 import { Work_Sans } from 'next/font/google'
+import Script from 'next/script'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 const work_sans = Work_Sans({ subsets: ['latin'] })
 
@@ -18,7 +20,18 @@ export default function RootLayout({ children }) {
       <body className={work_sans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
+      <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.MEASUREMENT_ID}`} />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', '${process.env.MEASUREMENT_ID}');
+        `}
+      </Script>
     </html>
   )
 }

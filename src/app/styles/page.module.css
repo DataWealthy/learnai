@@ -9,3 +9,9 @@
     gap: 50px;
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .cta {
+        gap: 20px;
+    }
+}
