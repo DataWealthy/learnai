@@ -1,0 +1,54 @@
+.newsletter {
+    height: 200px;
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.newsletter div {
+    display: block;
+}
+
+.newsletter div h4 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 786px) {
+    .newsletter div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .newsletter div h4 {
+        text-align: left;
+    }
+}
+
+.design {
+    position: absolute;
+    top: -40%;
+    transform: rotate(75deg);
+    left: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1012px) {
+    .footer {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

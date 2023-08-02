@@ -1,6 +1,7 @@
 import './globals.css'
 import { Work_Sans } from 'next/font/google'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 const work_sans = Work_Sans({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={work_sans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
