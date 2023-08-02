@@ -1,10 +1,5 @@
-import Image from "next/image";
 import styles from "@/app/styles/page.module.css";
 import Link from "next/link";
-
-import terminal from "@/app/icons/terminal.svg";
-import pytorch_logo from "@/app/icons/pytorch-logo.png";
-import pytorch_advanced from "@/app/icons/pytorch-advance.svg";
 
 export default function Home() {
   return (
