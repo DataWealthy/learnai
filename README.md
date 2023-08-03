@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**LearnAI - Making AI Safe and Accessible**
 
-## Getting Started
+![LearnAI Logo](https://learnai.datawealthy.com/logo-brand.svg)
 
-First, run the development server:
+### About LearnAI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+LearnAI is an open-source initiative by DataWealthy, an NGO focused on making AI safe and accessible to the public. Our mission is to empower individuals and businesses with the knowledge and tools to harness the potential of artificial intelligence. Whether you're a beginner or an experienced AI enthusiast, LearnAI offers a wide range of courses, tutorials, and resources to elevate your AI journey.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Table of Contents
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Getting Started](#getting-started)
+- [Learn PyTorch](#learn-pytorch)
+- [PyTorch Advanced](#pytorch-advanced)
+- [Community](#community)
+- [Contribution](#contribution)
+- [Contact Us](#contact-us)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Getting Started
 
-## Learn More
+Dive into the world of AI with our "Getting Started" course. This beginner-friendly course introduces fundamental AI concepts, terminology, and ethical considerations.
 
-To learn more about Next.js, take a look at the following resources:
+### Learn PyTorch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Master PyTorch, the industry-leading open-source deep learning framework, through our comprehensive "Learn PyTorch" course. Build neural networks, manipulate data, and deploy AI solutions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### PyTorch Advanced
 
-## Deploy on Vercel
+Ready for a challenge? Enroll in our "PyTorch Advanced" course to explore cutting-edge AI techniques, including transfer learning, GANs, and NLP, through hands-on projects.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Community
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Join our vibrant AI learning community! Engage in discussions, collaborate on projects, and share your AI experiences with fellow learners and experts.
+
+### Contribution
+
+LearnAI is an open-source project, and we welcome contributions from the community. Help us improve the learning resources, documentation, or suggest new course ideas. Read our [Contribution Guidelines](CONTRIBUTING.md) for more details.
+
+### Contact Us
+
+Have questions or need support? Get in touch with us via email at [contact@datawealthy.com](mailto:contact@datawealthy.com) or visit our website [learnai.datawealthy.com](https://www.learnai.datawealthy.com).
+
+### License
+
+LearnAI is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code and resources.
+
+---
+
+**We are grateful for your interest in LearnAI! Together, let's democratize AI knowledge and drive positive change in the world. Happy learning!**
