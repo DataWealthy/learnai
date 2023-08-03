@@ -26,7 +26,6 @@ export default function Header() {
   const [menu_opened, set_menu_opened] = useState(false);
 
   useEffect(() => {
-    console.log("Hello I was called!");
     if (menu_opened) {
       document.getElementById("body").style.position = "fixed";
     } else {
