@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer style={{ marginTop: 60 }}>
+    <footer style={{ marginTop: 80 }}>
       <div className={styles.newsletter}>
         <div className="container" style={{ position: "absolute", zIndex: 10 }}>
           <h4>Subscribe to our newsletter</h4>
