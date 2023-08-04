@@ -45,6 +45,7 @@
     height: 450px;
     border-radius: 11px;
     background-color: #fff;
+    transform: rotate(4deg);
 }
 
 .product_figure {

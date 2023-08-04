@@ -120,7 +120,7 @@ export default function Footer() {
       </div>
       <hr className="container" />
       <div className="container" style={{marginBottom: 20, marginTop: 20}}>
-        <p className="s">v1.0.2-alpha&nbsp;&copy; Made by <b><Link href="https://github.com/adityajideveloper">adityajideveloper</Link></b> and brought to you by <b><Link href="https://datawealthy.com">Data Wealthy</Link>.</b></p>
+        <p className="s">v1.0.3-alpha&nbsp;&copy; Made by <b><Link href="https://github.com/adityajideveloper">adityajideveloper</Link></b> and brought to you by <b><Link href="https://datawealthy.com">Data Wealthy</Link>.</b></p>
     </div>
     </footer>
   );
