@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer style={{ marginTop: 60 }}>
+    <footer style={{ marginTop: 200 }}>
       <div className={styles.newsletter}>
         <div className="container" style={{ position: "absolute", zIndex: 10 }}>
           <h4>Subscribe to our newsletter</h4>
@@ -98,10 +98,13 @@ export default function Footer() {
             <Link href={"/instructor"}>Instructor/Author</Link>
           </li>
           <li>
-            <Link href={"https://datawealthy.com/about"}>About Us</Link>
+            <Link href={"https://datawealthy.com/about"} target="_blank">About Us</Link>
           </li>
           <li>
-            <Link href={"https://datawealthy.com/contact"}>Contact Us</Link>
+            <Link href={"https://datawealthy.com/contact"} target="_blank">Contact Us</Link>
+          </li>
+          <li>
+            <Link href={"https://github.com/datawealthy"} target="_blank">GitHub</Link>
           </li>
         </ul>
         <ul>
@@ -115,6 +118,10 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+      <hr className="container" />
+      <div className="container" style={{marginBottom: 20, marginTop: 20}}>
+        <p className="s">v1.0.3-alpha&nbsp;&copy; Made by <b><Link href="https://github.com/adityajideveloper">adityajideveloper</Link></b> and brought to you by <b><Link href="https://datawealthy.com">Data Wealthy</Link>.</b></p>
+    </div>
     </footer>
   );
 }

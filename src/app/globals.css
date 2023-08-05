@@ -175,7 +175,8 @@ nav {
 }
 
 .hero {
-  min-height: 80vh;
+  height: 80vh;
+  max-height: 1000px;
   position: relative;
 }
 

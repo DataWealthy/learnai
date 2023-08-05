@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel='icon' href='logo-small.svg' />
       </head>
-      <body className={work_sans.className}>
+      <body className={work_sans.className} id='body'>
         <Header />
         {children}
         <Footer />
